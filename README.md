@@ -1,5 +1,15 @@
 # BrainWare Order List
 
+Changes to the BrainWare Order list:
+* Refactored all code using the ASP.NET Core Web API Template.
+* Added unit tests for missing item and testing order totals.
+* mdf/log is moved to App_Data at project root.
+* Database connection string is now in BrainWare\appsettings.json under "BrainWareConnectionString".
+
+The existing order display page is unchanged beyond changing css/js paths, showing the new API is compatible with the old version.  Database structure is also unchanged.
+
+---
+
 This is a very small sample web application written in a very simplistic manner.
 
 Grab the code and refactor it so that it meets your standard for production ready code.
